@@ -1,0 +1,26 @@
+{
+    "name": "Mind The Word Tab",
+    "version": "1.0",
+    "description": "A Mind The Word Tab that designed for you to learn new language",
+    "author" : "Osef-Z",
+    "permissions": [
+      "activeTab",
+      "declarativeContent",
+      "storage"
+    ],
+    "browser_action":{
+        "default_icon": "images/MTW128.png",
+        "default_title": "MTW Tab"
+        
+    },
+    "icons": {
+      "16": "images/MTW16.png",
+      "32": "images/MTW32.png",
+      "48": "images/MTW48.png",
+      "128": "images/MTW128.png"
+    },
+    "chrome_url_overrides":{
+        "newtab": "newtab.html"
+    },
+    "manifest_version": 2
+}
